@@ -1,0 +1,47 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    height: 30vh;
+    align-items: center;
+
+}
+
+.sec1{
+    padding-left: 35%;
+    justify-content: center;
+    
+    height: 10vh;
+    align-items: center;
+
+}
+.sec2{
+
+    padding-left: 35%;
+    height: 10vh;
+
+}
+label{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec1{
+        padding-left: 30%;
+        justify-content: center;
+        
+        height: 10vh;
+        align-items: center;
+    
+    }
+    .sec2{
+
+        padding-left: 30%;
+        height: 10vh;
+    
+    }
+  }
